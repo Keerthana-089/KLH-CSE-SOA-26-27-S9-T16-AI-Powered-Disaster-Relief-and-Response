@@ -26,7 +26,7 @@ SkyAid follows a Service-Oriented Architecture (SOA) using independent microserv
 - Docker (Optional)
 
 ### Clone Repository
-git clone <(https://github.com/Keerthana-089/KLH-CSE-SOA-26-27-S9-T16-AI-Powered-Disaster-Relief-and-Response.git)>
+git clone <https://github.com/Keerthana-089/KLH-CSE-SOA-26-27-S9-T16-AI-Powered-Disaster-Relief-and-Response.git>
 cd SkyAid
 
 ### Backend Setup
