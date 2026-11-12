@@ -1,84 +1,95 @@
-# KLH-CSE-SOA-26-27-S9-T16-AI-Powered-Disaster-Relief---Emergency-Response-Platform
+
+# SkyAid – AI-Powered Disaster Relief & Emergency Response Platform
 
 ## Team Members
+
 - M. Vennela         – 2420030218
 - C. Keerthana       – 2420030581
 - G. Manvitha Reddy  – 2420030752
 
 ## Supervisor
-K. Venkateshwari
+
+**K. Venkateshwari**
 
 ## Abstract
-SkyAid is an AI-powered disaster relief and emergency response platform designed to support faster and smarter decision-making during disasters such as floods, cyclones, earthquakes and fires. The system analyzes disaster information from multiple sources and assists in identifying the type, severity and priority of emergency incidents.
 
-The platform uses Agentic AI to support emergency prioritization, intelligent resource recommendation and automated response coordination. It aims to connect affected citizens, volunteers and emergency response teams through a unified platform, reducing manual effort and improving response efficiency.
+SkyAid is an AI-powered disaster relief and emergency response platform designed to support faster and smarter decision-making during disasters such as floods, cyclones, earthquakes, and fires. The system helps organize emergency information, assess incident severity, prioritize response requirements, and identify suitable resources.
 
-SkyAid follows a Service-Oriented Architecture (SOA) using independent microservices, making the system modular, scalable and easier to maintain. The proposed platform aims to provide a practical and socially useful solution for improving disaster preparedness, resource utilization and emergency response.
+The platform provides modules for incoming emergency reports, AI analysis and recommendations, incident management, response planning, and resource management. It demonstrates a simulated decision-support workflow that recommends suitable emergency actions and matches resource requirements with available resources.
+
+SkyAid follows Service-Oriented Architecture (SOA) and microservices principles to support modularity, scalability, and maintainability. The current implementation provides an interactive frontend prototype using sample data and simulated workflows. Backend microservices, database integration, real AI/Agentic AI processing, and real-time notifications are planned as future enhancements.
 
 ## Setup and Execution Instructions
+
 ### Prerequisites
-- Java JDK
-- Python
-- Node.js and npm
-- MySQL / PostgreSQL
+
+- Node.js
+- npm (Node Package Manager)
 - Git
-- Maven
-- Docker (Optional)
+- Visual Studio Code (recommended)
+- Google Chrome or any modern web browser
 
 ### Clone Repository
-git clone <https://github.com/Keerthana-089/KLH-CSE-SOA-26-27-S9-T16-AI-Powered-Disaster-Relief-and-Response.git>
-cd SkyAid
 
-### Backend Setup
-cd <service-folder>
-mvn clean install
-mvn spring-boot:run
+```bash
+git clone https://github.com/Keerthana-089/KLH-CSE-SOA-26-27-S9-T16-AI-Powered-Disaster-Relief-and-Response.git
+```
+
+Navigate to the cloned project folder containing `package.json`.
 
 ### Frontend Setup
-cd frontend
+
+1. Open the project folder in Visual Studio Code.
+2. Open the terminal in the directory containing `package.json`.
+3. Install the dependencies:
+
+```bash
 npm install
-npm start
+```
 
-### Database Setup
-1. Install and start MySQL/PostgreSQL.
-2. Create the required database.
-3. Configure database credentials in the application configuration.
-4. Start the required backend services.
+4. Start the development server:
 
-Note: Setup instructions will be updated as development progresses.
+```bash
+npm run dev
+```
 
-## Current Phase Status
-### Phase 1 – Project Planning & Architecture
-Status: 🟢 In Progress
+5. Open the local URL displayed in the terminal in your browser.
 
-- [x] Project title finalized
-- [x] Problem statement identified
-- [x] Objectives defined
-- [x] Literature survey initiated
-- [x] Research gap identified
-- [x] Novelty identified
-- [x] SDG alignment identified
-- [x] Initial SOA architecture designed
-- [ ] Backend microservices implementation
-- [ ] AI/Agentic AI integration
-- [ ] Frontend implementation
-- [ ] Resource allocation module
-- [ ] Notification and alert system
-- [ ] Integration testing
-- [ ] Final deployment
+### Production Build
+
+To create a production build, run:
+
+```bash
+npm run build
+```
+
+## Application Modules
+
+1. **Dashboard:** Displays incident statistics, affected population, available resources, and recent emergency activities.
+2. **Incoming Reports:** Supports reviewing, filtering, verifying, and managing emergency reports from different sources.
+3. **AI Analysis & Recommendations:** Demonstrates incident risk assessment, simulated analysis, and recommended emergency response actions.
+4. **Incidents & Response Plan:** Manages verified incidents, tracks response tasks, and records field-operation updates.
+5. **Resources:** Displays emergency resource availability and supports resource-status management.
 
 ## Project Workflow
-Input → Data Ingestion → AI Analysis → Emergency Prioritization → Resource Recommendation → Response & Notifications
 
-## Technologies
-- Frontend: React.js, HTML, CSS, JavaScript
-- Backend: Java, Spring Boot, REST APIs
-- SOA: Spring Cloud Gateway, Eureka
-- Database: MySQL / PostgreSQL
-- AI: Python, ML, NLP, Computer Vision, LLM / Agentic AI
-- Testing: Postman
-- Security: JWT, RBAC
-- DevOps: GitHub, Docker, GitHub Actions
+**Emergency Reports → Data Processing → Incident Analysis → Emergency Prioritization → Resource Recommendation → Response Planning**
+
+## Technologies Used
+
+- **Frontend:** React.js, TypeScript, HTML5, CSS3, Tailwind CSS
+- **Routing:** TanStack Router
+- **Build Tool:** Vite
+- **State Management:** React Context
+- **Development Tools:** Visual Studio Code, npm
+- **Version Control:** Git and GitHub
+
+## Implementation Notes
+
+- The current application uses sample data and frontend-managed state to demonstrate its workflows.
+- Changes made during a session are simulated and may reset when the application is refreshed.
+- Backend services, persistent database storage, external API integrations, and live notification functionality are not included in the current frontend prototype.
 
 ## Expected Outcome
-SkyAid aims to provide an automated disaster-response platform that enables faster incident identification, intelligent emergency prioritization, efficient resource recommendation and improved coordination between citizens and emergency response teams.
+
+SkyAid aims to provide a unified disaster-response platform that helps organize emergency reports, prioritize incidents, recommend suitable resources, and improve coordination among emergency response teams. Its modular design provides a foundation for future integration of backend microservices, databases, and intelligent Agentic AI capabilities.
