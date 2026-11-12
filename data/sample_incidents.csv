@@ -1,0 +1,3 @@
+incident_id,report_id,disaster_type,location,severity,people_affected,incident_status
+SYN-INC-001,SYN-REP-001,Flood,Kollam Ward 4,Critical,420,Active
+SYN-INC-002,SYN-REP-004,Landslide,Wayanad Sector 2,High,65,Monitoring

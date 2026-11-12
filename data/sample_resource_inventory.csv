@@ -1,0 +1,7 @@
+resource_id,resource_type,location,available_quantity,unit,status
+SYN-RES-001,Medical Teams,Regional Medical Center,12,teams,Available
+SYN-RES-002,Ambulances,District Hospital,8,vehicles,Limited
+SYN-RES-003,Rescue Teams,North Zone Base,6,teams,Deployed
+SYN-RES-004,Food Supplies,Central Warehouse,1200,kits,Available
+SYN-RES-005,Water Supplies,Central Warehouse,900,units,Limited
+SYN-RES-006,Emergency Shelters,Community Hall,3,shelters,Available

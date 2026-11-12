@@ -1,0 +1,6 @@
+report_id,disaster_type,location,source,severity,status,people_affected
+SYN-REP-001,Flood,Kollam Ward 4,Control-Room Call,Critical,New,420
+SYN-REP-002,Wildfire,Ananthagiri Hills,Field Officer,High,Under Review,85
+SYN-REP-003,Cyclone,Machilipatnam Coastal Area,Official Alert,Medium,New,210
+SYN-REP-004,Landslide,Wayanad Sector 2,Citizen Hotline,High,Verified,65
+SYN-REP-005,Earthquake,Guwahati Central,Control-Room Call,Critical,New,712
